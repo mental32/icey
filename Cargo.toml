@@ -1,0 +1,14 @@
+[package]
+name = "icey"
+version = "0.99.0"
+authors = ["mental <mentalfoss@yahoo.com>"]
+edition = "2018"
+
+[profile.dev]
+incremental = false
+
+[features]
+default = []
+const_fn = []
+
+[dependencies]
